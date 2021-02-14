@@ -15,10 +15,14 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
     template](https://github.com/mikepqr/resume.md/generate), forking, or
     cloning
 
- 2. Install the dependencies:
+ 2. Install the dependencies <a href="https://python-markdown.github.io/">markdown</a>
+    and <a href="https://weasyprint.org/">weasyprint</a>.
+
+    You can install them using the `requirements.txt` file.
     <pre>
-    pip install <a href="https://python-markdown.github.io/">markdown</a> <a href="https://weasyprint.org/">weasyprint</a>
+    pip install -r requirements.txt
     </pre>
+
     Note weasyprint has additional non-python dependencies (cairo, Pango and
     GDK-PixBuf). See the [weasyprint documentation for
     details](https://weasyprint.readthedocs.io/en/latest/install.html).
