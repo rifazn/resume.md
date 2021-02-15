@@ -1,12 +1,13 @@
 body {
-    color: #000000;
-    background: #EEEEEE;
+    color: #000;
+    background-color: #efeae9;
     font: 1.5em "Ubuntu";
     line-height: 1.2;
     margin: 40px 0;
 }
 #resume {
     margin: 0 auto;
+    background-color: #fbf8ef;
     max-width: 800px;
     padding: 40px 60px;
     background: #FFFFFF;
@@ -20,6 +21,7 @@ h1 {
     font-size: 200%;
     margin: 2px;
     padding: 0;
+    color: #3a81c3;
 }
 h2 {
     border-bottom: 1px solid #000000;
@@ -27,7 +29,7 @@ h2 {
     font-size: 130%;
     margin: 1em 0 0 0;
     padding: 0;
-    color: #98971a;
+    color: #2d9574;
 }
 h3 {
     font-size: 100%;
@@ -35,10 +37,10 @@ h3 {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    color: #d79921;
+    color: #67b11d;
 }
 a {
-    color: #458588;
+    color: #3a81c3;
 }
 p {
     padding: 0;
@@ -86,7 +88,6 @@ h1 + ul + p {
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #af3a03;
         text-decoration: underline;
     }
 }
